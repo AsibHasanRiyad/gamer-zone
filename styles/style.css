@@ -1,0 +1,118 @@
+/* shared style */
+body{
+    font-family: 'Work Sans', sans-serif;
+    max-width: 1440px;
+    margin: 0;
+}
+.primary-button{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 16px 32px;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 0px 150px;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-title h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-title img{
+    width: 86.041px;
+    height: 40px;
+}
+.nav-content ul{
+    display: flex;
+    gap: 32px;
+}
+.nav-content ul li{
+    list-style: none;
+}
+.nav-content a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-content-icon{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px 24px;
+}
+.nav-content-icon i{
+    margin-left: 16px;
+}
+
+/* nav style end */
+/* banner style */
+.banner{
+    padding: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    width: 50%;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+.banner-image{
+    width: 50%;
+}
+.banner-image img{
+    width: 100%;
+}
+.banner-content h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.banner-content h1{
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.list{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+    margin-bottom: 40px;
+    margin-top: 24px;
+}
+.go-button{
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 16px 32px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-left: 16px;
+}
