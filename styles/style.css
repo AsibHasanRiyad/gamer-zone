@@ -34,6 +34,7 @@ nav{
     text-align: center;
     font-size: 45px;
     font-weight: 700;
+    margin: 24px 0;
 }
 .nav-title img{
     width: 86.041px;
@@ -42,6 +43,7 @@ nav{
 .nav-content ul{
     display: flex;
     gap: 32px;
+    align-items: center;
 }
 .nav-content ul li{
     list-style: none;
@@ -115,4 +117,97 @@ nav{
     text-transform: uppercase;
     border: none;
     margin-left: 16px;
+}
+
+
+
+/* mobile responsive */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        padding: 0;
+        box-shadow: none;
+    }
+    .nav-title{
+        margin-bottom: 20px;
+    }
+    .nav-content ul{
+        flex-direction: column;
+        padding-inline-start: 0px;
+    }
+    .nav-content{
+        text-align: center;
+    }
+    .nav-content-icon{
+        margin-top: 30px;
+    }
+    .banner{
+        padding: 40px 60px;
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width: 100%;
+        align-items: center;
+    }
+    .banner-image{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .banner-content h3{
+        font-size: 30px;
+    }
+    .banner-content h1{
+        font-size: 60px;
+    }
+    .list{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .primary-button, .go-button{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+}
+
+
+/* tablet responsive */
+@media screen and (min-width:576px) and (max-width:768px) {
+    nav{
+        flex-direction: column;
+        padding: 0;
+        box-shadow: none;
+    }
+    .nav-title{
+        margin-bottom: 20px;
+    }
+    .nav-content ul{
+        padding-inline-start: 0px;
+        align-items: center;
+    }
+    .banner{
+        padding: 40px 60px;
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-image{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .banner-content h3{
+        font-size: 40px;
+    }
+    .banner-content h1{
+        font-size: 100px;
+    }
+    .list{
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    .primary-button, .go-button{
+        padding: 14px 28px;
+        font-size: 16px;
+    }
 }
