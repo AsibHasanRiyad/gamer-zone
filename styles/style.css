@@ -168,8 +168,30 @@ nav{
 
 
 /* online games */
+.card{
+    position: relative;
+}
+.hover-item{
+    position: absolute;
+    bottom: 40%;
+    left: 30%;
+    opacity: 0;
+
+}
+.card:hover .hover-item{
+    opacity: 1;
+}
+.card:hover .hover-image{
+    opacity: 0.4;
+    border: 4px solid #F948B2;
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+}
+
+
+
 .online-games{
-    padding: 0px 100px 0px 100px;
+    padding: 0px 100px 30px 100px;
     text-align: center;
 }
 .online-games-title{
@@ -277,11 +299,11 @@ nav{
     text-align: center;
 }
 .games-category ul{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .games-category >ul li{
     display: flex;
@@ -520,9 +542,7 @@ footer{
         gap: 5px;
     }
     .games-category ul{
-        grid-template-columns: repeat(3, 1fr);
-        /* width: 40px; */
-        padding-inline-start: 20px;
+        padding-inline-start: 0px;
     }
     .games-category ul li p{
         font-size: 8px;
@@ -701,9 +721,8 @@ footer{
         padding: 30px 50px;
     }
     .games-category ul{
-        grid-template-columns: repeat(3, 1fr);
         gap: 30px;
-        padding-inline-start: 20px;
+        padding-inline-start: 0px;
     }
 
 
