@@ -1,8 +1,8 @@
 /* shared style */
 body{
     font-family: 'Work Sans', sans-serif;
-    max-width: 1440px;
-    margin: 0;
+    /* max-width: 1440px;
+    margin: 0 auto; */
 }
 .primary-button{
     border-radius: 48px;
