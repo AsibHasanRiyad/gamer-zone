@@ -126,6 +126,7 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 40px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .gamer-content{
     text-align:right;
@@ -168,7 +169,7 @@ nav{
 
 /* online games */
 .online-games{
-    padding: 0px 100px;
+    padding: 0px 100px 100px 0px;
     text-align: center;
 }
 .online-games-title{
@@ -206,7 +207,7 @@ nav{
 
 /* play instantly */
 .play-instantly{
-    padding: 100px 100px;
+    padding: 0px 100px 0px 100px;
     display: flex;
     gap: 250px;
 }
@@ -241,6 +242,29 @@ nav{
 
 }
 
+
+/* play online games */
+.play-online{
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    gap: 250px;
+}
+.play-online-content, .play-online-content h1{
+    text-align: start;
+}
+.play-online-image img{
+    width: 434.833px;
+    height: 450px;
+}
+.position-image2 img{
+    width: 218.5px;
+    height: 265.083px;
+}
+.position-image2{
+    position: relative;
+    left: 290px;
+    bottom:150px;
+}
 
 /* mobile responsive */
 @media screen and (max-width:576px) {
@@ -314,11 +338,13 @@ nav{
 
 
     .online-games{
-        padding: 20px 40px;
+        padding: 20px 20px 80px 20px;
+        padding-top: -50px;
     }
     .online-games-card{
         flex-direction: column;
         gap: 70px;
+        align-items: center;
     }
     .online-games-title{
         font-size: 24px;
@@ -329,12 +355,12 @@ nav{
 
     .play-instantly{
         flex-direction: column;
-        padding: 20px;
+        padding: 0px 20px;
         gap: 50px;
     }
     .play-instantly-content{
         width: 100%;
-        padding-top: 30px;
+        padding-top: 0px;
         text-align: center;
         font-size: 18px;
     }
@@ -359,6 +385,36 @@ nav{
     
     }
     .position-image img{
+        width: 130.5px;
+        height: 150.083px;
+    }
+
+
+
+
+
+
+
+
+    .play-online{
+        flex-direction: column-reverse;
+        padding: 0 20px;
+        gap: 40px;
+    }
+    .play-online-image img{
+        width: 234.833px;
+        height: 250px;
+        padding-left: 50px;
+        
+    }
+    .position-image2{
+        position: relative;
+        bottom: 110px;
+        left: 150px;
+        max-width: 130px;
+    
+    }
+    .position-image2 img{
         width: 130.5px;
         height: 150.083px;
     }
@@ -448,12 +504,12 @@ nav{
 
     .play-instantly{
         flex-direction: column;
-        padding: 20px;
+        padding-top: 40px;
         gap: 50px;
     }
     .play-instantly-content{
         width: 100%;
-        padding-top: 30px;
+        padding-top: 0px;
         text-align: center;
         font-size: 18px;
     }
@@ -461,6 +517,7 @@ nav{
         text-align: center;
         font-size: 44px;
         line-height: 60px;
+        margin-top: 0;
     }
     .play-instantly-image{
         width: 100%;
@@ -478,6 +535,31 @@ nav{
     
     }
     .position-image img{
+        width: 170.5px;
+        height: 190.083px;
+    }
+
+
+
+    .play-online{
+        flex-direction: column-reverse;
+        padding: 0 20px;
+        gap: 40px;
+    }
+    .play-online-image img{
+        width: 334.833px;
+        height: 350px;
+        padding-left: 150px;
+        
+    }
+    .position-image2{
+        position: relative;
+        bottom: 110px;
+        left: 250px;
+        max-width: 130px;
+    
+    }
+    .position-image2 img{
         width: 170.5px;
         height: 190.083px;
     }
