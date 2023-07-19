@@ -176,13 +176,14 @@ nav{
     bottom: 40%;
     left: 30%;
     opacity: 0;
+    color: #F948B2;
 
 }
 .card:hover .hover-item{
     opacity: 1;
 }
 .card:hover .hover-image{
-    opacity: 0.4;
+    opacity: 0.3;
     border: 4px solid #F948B2;
     border-radius: 20px;
     transition: all 0.2s ease-in;
